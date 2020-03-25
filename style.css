@@ -31,6 +31,7 @@ body{
     justify-items: center;
     /* justify-content: center; */
     display: grid;
+    overflow: hidden;
     /* grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); */
     grid-gap: 5px;
 }
@@ -48,6 +49,7 @@ body{
     height: 300px;
     width: 300px;
     /* border-radius: 50%; */
+    overflow: hidden;
     background: linear-gradient(180deg, #FFFFFF 50%, #000000 50%);
     display: grid;
     grid-template-columns: 1fr 1fr;
